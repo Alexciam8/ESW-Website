@@ -1,0 +1,409 @@
+body {
+	padding-top: 50px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+	color: #666666;
+	}
+	
+h1{
+	color: #3b9954;
+	}, 
+h2{
+	color: #3b9954;
+	}, 
+h3{
+	color: #3b9954;
+	}, 
+h4{
+	color: #3b9954;
+	}, 
+h5{
+	color: #3b9954;
+	}, 
+h6 {
+	color: #3b9954;
+	}
+	
+.feature {
+	background: url('../images/mainbkg.jpg');
+	background-position: top right;
+	background-size: cover;
+	background-color: #3b9954;
+	color: white;
+	text-shadow: 1px 1px 8px black;
+	}
+
+.feature .btn {
+	text-shadow: none;
+	}
+	
+.promo, .footer-map {
+	border-width: 1px;
+	border-color: black;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+.promo,
+.promo h3,
+.promo a:link,
+.promo a:visited,
+.promo a:hover,
+.promo a:active {
+    color: white;
+	text-shadow: 1px 1px 8px black;
+    text-decoration: none;
+}
+
+.promo-item {
+    height: 200px;
+    line-height: 180px;
+    text-align: center;
+}
+
+.promo-item:hover {
+    background-size: 110%; 
+    border: 5px solid black;
+    line-height: 170px;
+}
+
+.promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item-1 {
+	background: url('../images/SSRD.jpg');
+	}
+	
+.item-2 {
+	background: url('../images/HPEG.jpg');
+	}
+	
+.item-3 {
+	background: url('../images/Biofuels.jpg');
+	}
+		
+.item-1,
+.item-2,
+.item-3 {
+	background-size: cover;
+	background-position: 50% 50%;
+	}
+
+.featured-product > img,
+.featured-product > a > img {
+	height: 150px;
+}
+
+.featured-product h3 {
+	color: #3b9954;
+	font-size: 18px;
+	}
+
+.featured-product .price {
+	color: #3b9954;
+	font-size: 18px;
+	}
+	
+.featured-product .price s {
+	color: #999;
+	font-size: 18px;
+	}
+	
+.footer-map {
+	height: 300px;
+	width: 100%;
+	background: url('../images/map.jpg');
+	background-size: cover;
+	border-color: #ccc;
+	}
+.footer-info {
+    padding: 20px 0;
+    background: #f7f7f7;
+}
+
+.footer-info,
+.footer-info a:link,
+.footer-info a:hover,
+.footer-info a:focus,
+.footer-info a:visited {
+    color: #959595;
+	}
+
+.footer-info h3 {
+	color: black;
+	font-size: 18px;
+	}
+    
+.footer-info-item {
+    padding: 0px 20px;
+    }
+    
+footer .small-print {
+	background-color: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.jumbotron-font-title{
+	text-align: center;
+	
+}
+
+.jumbotron-font-caption{
+	text-align: center;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/*height of header for the homepage */
+.jumbotron-height{
+	height: 500px;
+}
+
+/*height of header for non homepage pages */
+.jumbotron-branch-height{
+	height: 100px;
+}
+
+.jumbotron h1 {
+	font-size: 40px;
+	margin-top: -20px;
+}
+
+/*css for the About Me sections */
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
+@media(min-width:768px) {
+    header {
+        min-height: 100%;
+    }
+
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+	header .header-content .header-content-inner h1 {
+    	font-size: 100px;
+		}
+
+    header .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+}
+
+.content {
+    padding: 80px 0;
+}
+
+.content-2 {
+	color: #fff;
+    background-color: #222;
+}
+
+.content-3 {
+	padding: 20px 0 40px;
+	text-align: center;
+}
+
+.content-4 {
+	padding: 80px 0;
+	color: black;
+    background-color: #90EE90;
+}
+
+::selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0;
+}
+
+.col-aboutus {
+	float: left;
+	position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 180px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.img-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-projects {
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+  width: 400px;
+  height: 400px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.col-projects:hover .image {
+  opacity: 0.3;
+}
+
+.col-projects:hover .middle {
+  opacity: 1;
+}
+
+.textImage {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+/*
+*************************** 
+Override Bootstrap Classes 
+***************************
+*/
+
+/* Links */
+a {
+  color: green;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar-default {
+  background-color: #fff;
+}
+.navbar-default .navbar-brand {
+  color: #3b9954;
+}
+
+.navbar-brand2 {
+	padding-top: 2px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: darkgreen;
+  background-color: transparent;
+}
+
+/* Primary Buttons */
+.btn-primary {
+  color: #fff;
+  background-color: green;
+  border-color: green;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: sandybrown;
+  border-color: sandybrown;
+}
